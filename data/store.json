@@ -1,0 +1,4168 @@
+{
+  "adminClaimed": false,
+  "adminPasscodeHash": null,
+  "users": [
+    {
+      "id": "usr_demo_01",
+      "name": "Maya Lin",
+      "email": "maya@growthstudio.demo",
+      "role": "user",
+      "emailVerified": true,
+      "subscriptionPlan": "pro",
+      "creditsUsed": 84,
+      "workspaceId": "ws_demo_01",
+      "brandName": "AudiencePulse AI",
+      "passwordHash": "",
+      "verificationCode": "482910",
+      "resetToken": null,
+      "onboarding": {
+        "businessOrWebsite": "https://growthstudio.demo",
+        "industry": "B2B SaaS & Marketing",
+        "targetAudience": "B2B SaaS Founders & Heads of Growth",
+        "targetCountries": [
+          "United States",
+          "United Kingdom",
+          "Canada"
+        ],
+        "preferredLanguage": "English",
+        "objectives": [
+          "Discover Audience Channels",
+          "Find Low-KD Keywords",
+          "Improve AI Search Visibility"
+        ],
+        "completed": true
+      },
+      "createdAt": "2026-11-24T22:40:32.736Z"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": "ws_demo_01",
+      "name": "Growth Studio HQ",
+      "organisationName": "Growth Studio",
+      "ownerId": "usr_demo_01",
+      "industry": "B2B SaaS & Marketing",
+      "createdAt": "2026-11-24T22:40:32.736Z"
+    },
+    {
+      "id": "ws_demo_client_02",
+      "name": "Northstar Fintech (Client)",
+      "organisationName": "Growth Studio",
+      "ownerId": "usr_demo_01",
+      "industry": "Fintech & Payments",
+      "createdAt": "2026-11-24T22:40:32.736Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_7a27f739db29",
+      "userId": "usr_demo_01",
+      "workspaceId": "ws_demo_01",
+      "title": "AI Product Designers (Global)",
+      "query": "AI Product Designers",
+      "country": "Global (All Countries)",
+      "language": "English",
+      "industry": "B2B SaaS & Marketing",
+      "dataMode": "Free Live + Demo Hybrid",
+      "intelligence": {
+        "query": "AI Product Designers",
+        "country": "Global (All Countries)",
+        "state": "All States / National",
+        "searchEngine": "All Engines",
+        "language": "English",
+        "industry": "B2B SaaS & Marketing",
+        "generatedAt": "2026-11-25T12:35:06.247Z",
+        "sampleModeNotice": "Live free adapters enriched this snapshot with 19 observed public signals. Manage free and optional-quota adapters in API & Settings.",
+        "summary": {
+          "estimatedAudienceSize": "175K – 635K",
+          "topPlatform": "YouTube",
+          "topPlatformAffinity": 87,
+          "avgKeywordOpportunity": 86,
+          "aiVisibilityIndex": 41
+        },
+        "socialNetworks": [
+          {
+            "platform": "YouTube",
+            "audiencePct": 87,
+            "marketAvgPct": 76,
+            "indexMultiplier": 1.14,
+            "rank": 1,
+            "delta30d": 3.1,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 83,
+                "avgPct": 76
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 84,
+                "avgPct": 76
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 85,
+                "avgPct": 76
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 85,
+                "avgPct": 76
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 86,
+                "avgPct": 76
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 87,
+                "avgPct": 76
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "LinkedIn",
+            "audiencePct": 66,
+            "marketAvgPct": 29,
+            "indexMultiplier": 2.28,
+            "rank": 2,
+            "delta30d": 2.5,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 63,
+                "avgPct": 29
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 64,
+                "avgPct": 29
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 64,
+                "avgPct": 29
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 65,
+                "avgPct": 29
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 65,
+                "avgPct": 29
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 66,
+                "avgPct": 29
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Instagram",
+            "audiencePct": 54,
+            "marketAvgPct": 56,
+            "indexMultiplier": 0.96,
+            "rank": 3,
+            "delta30d": 3.5,
+            "recommended": false,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 50,
+                "avgPct": 56
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 51,
+                "avgPct": 56
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 51,
+                "avgPct": 56
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 52,
+                "avgPct": 56
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 53,
+                "avgPct": 56
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 54,
+                "avgPct": 56
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Reddit",
+            "audiencePct": 53,
+            "marketAvgPct": 27,
+            "indexMultiplier": 1.96,
+            "rank": 4,
+            "delta30d": 4.3,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 48,
+                "avgPct": 27
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 49,
+                "avgPct": 27
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 50,
+                "avgPct": 27
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 51,
+                "avgPct": 27
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 52,
+                "avgPct": 27
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 53,
+                "avgPct": 27
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Facebook",
+            "audiencePct": 50,
+            "marketAvgPct": 61,
+            "indexMultiplier": 0.82,
+            "rank": 5,
+            "delta30d": -0.2,
+            "recommended": false,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 50,
+                "avgPct": 61
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 50,
+                "avgPct": 61
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 50,
+                "avgPct": 61
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 50,
+                "avgPct": 61
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 50,
+                "avgPct": 61
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 50,
+                "avgPct": 61
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "X (Twitter)",
+            "audiencePct": 49,
+            "marketAvgPct": 23,
+            "indexMultiplier": 2.13,
+            "rank": 6,
+            "delta30d": 2.2,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 46,
+                "avgPct": 23
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 47,
+                "avgPct": 23
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 47,
+                "avgPct": 23
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 48,
+                "avgPct": 23
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 48,
+                "avgPct": 23
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 49,
+                "avgPct": 23
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "TikTok",
+            "audiencePct": 47,
+            "marketAvgPct": 45,
+            "indexMultiplier": 1.04,
+            "rank": 7,
+            "delta30d": 4.6,
+            "recommended": false,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 41,
+                "avgPct": 45
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 42,
+                "avgPct": 45
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 44,
+                "avgPct": 45
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 45,
+                "avgPct": 45
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 46,
+                "avgPct": 45
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 47,
+                "avgPct": 45
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Threads",
+            "audiencePct": 22,
+            "marketAvgPct": 14,
+            "indexMultiplier": 1.57,
+            "rank": 8,
+            "delta30d": -2.2,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 25,
+                "avgPct": 14
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 24,
+                "avgPct": 14
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 24,
+                "avgPct": 14
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 23,
+                "avgPct": 14
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 23,
+                "avgPct": 14
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 22,
+                "avgPct": 14
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Pinterest",
+            "audiencePct": 17,
+            "marketAvgPct": 29,
+            "indexMultiplier": 0.59,
+            "rank": 9,
+            "delta30d": -1.4,
+            "recommended": false,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 19,
+                "avgPct": 29
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 18,
+                "avgPct": 29
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 18,
+                "avgPct": 29
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 18,
+                "avgPct": 29
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 17,
+                "avgPct": 29
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 17,
+                "avgPct": 29
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Snapchat",
+            "audiencePct": 11,
+            "marketAvgPct": 19,
+            "indexMultiplier": 0.58,
+            "rank": 10,
+            "delta30d": 4.5,
+            "recommended": false,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 5,
+                "avgPct": 19
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 7,
+                "avgPct": 19
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 8,
+                "avgPct": 19
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 9,
+                "avgPct": 19
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 10,
+                "avgPct": 19
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 11,
+                "avgPct": 19
+              }
+            ],
+            "provenance": "Demo Dataset"
+          }
+        ],
+        "demographics": [
+          {
+            "label": "25–34 years",
+            "audiencePct": 36,
+            "marketAvgPct": 24,
+            "category": "age",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "35–44 years",
+            "audiencePct": 31,
+            "marketAvgPct": 22,
+            "category": "age",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "18–24 years",
+            "audiencePct": 14,
+            "marketAvgPct": 21,
+            "category": "age",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "45–54 years",
+            "audiencePct": 13,
+            "marketAvgPct": 18,
+            "category": "age",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "55+ years",
+            "audiencePct": 6,
+            "marketAvgPct": 15,
+            "category": "age",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Female",
+            "audiencePct": 47,
+            "marketAvgPct": 50,
+            "category": "gender",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Male",
+            "audiencePct": 51,
+            "marketAvgPct": 49,
+            "category": "gender",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Non-binary / Undisclosed",
+            "audiencePct": 2,
+            "marketAvgPct": 1,
+            "category": "gender",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "United States",
+            "audiencePct": 38,
+            "marketAvgPct": 24,
+            "category": "country",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "United Kingdom",
+            "audiencePct": 16,
+            "marketAvgPct": 9,
+            "category": "country",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Canada",
+            "audiencePct": 12,
+            "marketAvgPct": 7,
+            "category": "country",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Germany & EU",
+            "audiencePct": 15,
+            "marketAvgPct": 14,
+            "category": "country",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Nigeria & Africa",
+            "audiencePct": 10,
+            "marketAvgPct": 8,
+            "category": "country",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "India & APAC",
+            "audiencePct": 9,
+            "marketAvgPct": 18,
+            "category": "country",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "California (US)",
+            "audiencePct": 34,
+            "marketAvgPct": 19,
+            "category": "state",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Greater London (UK)",
+            "audiencePct": 28,
+            "marketAvgPct": 16,
+            "category": "state",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Ontario (CA)",
+            "audiencePct": 22,
+            "marketAvgPct": 13,
+            "category": "state",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Lagos (NG)",
+            "audiencePct": 16,
+            "marketAvgPct": 10,
+            "category": "state",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Austin, TX · London · Toronto",
+            "audiencePct": 34,
+            "marketAvgPct": 16,
+            "category": "city",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "English",
+            "audiencePct": 84,
+            "marketAvgPct": 68,
+            "category": "language",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Bachelor’s Degree or Higher",
+            "audiencePct": 71,
+            "marketAvgPct": 39,
+            "category": "education",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Marketing, Product & Founders",
+            "audiencePct": 54,
+            "marketAvgPct": 14,
+            "category": "occupation",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "$85k–$160k Household Income Indicator",
+            "audiencePct": 49,
+            "marketAvgPct": 26,
+            "category": "income",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Dual-income urban households",
+            "audiencePct": 53,
+            "marketAvgPct": 38,
+            "category": "household",
+            "provenance": "Estimated"
+          }
+        ],
+        "searchAndAi": [
+          {
+            "platform": "Google Search",
+            "type": "Traditional Search",
+            "audienceAdoptionPct": 91,
+            "visibilityScore": 68,
+            "brandMentionsEst": 1420,
+            "competitorMentionsEst": 2380,
+            "topQuestions": [
+              "Best tools for AI Product Designers workflows",
+              "How to measure ROI for AI Product Designers"
+            ],
+            "citationOpportunities": [
+              "Publish benchmark comparison tables",
+              "Add schema FAQ markup on buying guides"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 56
+              },
+              {
+                "month": "Jul",
+                "visibility": 58
+              },
+              {
+                "month": "Aug",
+                "visibility": 60
+              },
+              {
+                "month": "Sep",
+                "visibility": 62
+              },
+              {
+                "month": "Oct",
+                "visibility": 64
+              },
+              {
+                "month": "Nov",
+                "visibility": 66
+              }
+            ],
+            "provenance": "Estimated"
+          },
+          {
+            "platform": "ChatGPT",
+            "type": "AI Search",
+            "audienceAdoptionPct": 64,
+            "visibilityScore": 44,
+            "brandMentionsEst": 310,
+            "competitorMentionsEst": 590,
+            "topQuestions": [
+              "Compare top AI Product Designers platforms by budget",
+              "Build a 90-day playbook for AI Product Designers"
+            ],
+            "citationOpportunities": [
+              "Get cited in G2/Reddit comparison threads",
+              "Publish transparent pricing pages"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 31
+              },
+              {
+                "month": "Jul",
+                "visibility": 34
+              },
+              {
+                "month": "Aug",
+                "visibility": 37
+              },
+              {
+                "month": "Sep",
+                "visibility": 40
+              },
+              {
+                "month": "Oct",
+                "visibility": 43
+              },
+              {
+                "month": "Nov",
+                "visibility": 46
+              }
+            ],
+            "provenance": "AI-Inferred"
+          },
+          {
+            "platform": "Gemini",
+            "type": "AI Search",
+            "audienceAdoptionPct": 52,
+            "visibilityScore": 49,
+            "brandMentionsEst": 280,
+            "competitorMentionsEst": 410,
+            "topQuestions": [
+              "What metrics matter most for AI Product Designers?",
+              "Step-by-step audit checklist for B2B SaaS & Marketing"
+            ],
+            "citationOpportunities": [
+              "Publish original research reports with clear data attribution",
+              "Optimize YouTube transcripts"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 35
+              },
+              {
+                "month": "Jul",
+                "visibility": 38
+              },
+              {
+                "month": "Aug",
+                "visibility": 41
+              },
+              {
+                "month": "Sep",
+                "visibility": 44
+              },
+              {
+                "month": "Oct",
+                "visibility": 47
+              },
+              {
+                "month": "Nov",
+                "visibility": 50
+              }
+            ],
+            "provenance": "AI-Inferred"
+          },
+          {
+            "platform": "Perplexity",
+            "type": "AI Search",
+            "audienceAdoptionPct": 39,
+            "visibilityScore": 38,
+            "brandMentionsEst": 195,
+            "competitorMentionsEst": 440,
+            "topQuestions": [
+              "AI Product Designers market size and benchmark statistics",
+              "Alternatives to legacy AI Product Designers software"
+            ],
+            "citationOpportunities": [
+              "Create cite-worthy statistics glossary pages",
+              "Contribute guest studies to trade journals"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 25
+              },
+              {
+                "month": "Jul",
+                "visibility": 28
+              },
+              {
+                "month": "Aug",
+                "visibility": 31
+              },
+              {
+                "month": "Sep",
+                "visibility": 34
+              },
+              {
+                "month": "Oct",
+                "visibility": 37
+              },
+              {
+                "month": "Nov",
+                "visibility": 40
+              }
+            ],
+            "provenance": "AI-Inferred"
+          },
+          {
+            "platform": "Claude",
+            "type": "AI Search",
+            "audienceAdoptionPct": 34,
+            "visibilityScore": 33,
+            "brandMentionsEst": 140,
+            "competitorMentionsEst": 290,
+            "topQuestions": [
+              "Draft positioning brief for AI Product Designers",
+              "Evaluate vendor risks in B2B SaaS & Marketing"
+            ],
+            "citationOpportunities": [
+              "Publish technical architecture docs and API security FAQs"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 22
+              },
+              {
+                "month": "Jul",
+                "visibility": 24
+              },
+              {
+                "month": "Aug",
+                "visibility": 26
+              },
+              {
+                "month": "Sep",
+                "visibility": 28
+              },
+              {
+                "month": "Oct",
+                "visibility": 30
+              },
+              {
+                "month": "Nov",
+                "visibility": 32
+              }
+            ],
+            "provenance": "AI-Inferred"
+          },
+          {
+            "platform": "Bing",
+            "type": "Traditional Search",
+            "audienceAdoptionPct": 28,
+            "visibilityScore": 54,
+            "brandMentionsEst": 460,
+            "competitorMentionsEst": 610,
+            "topQuestions": [
+              "Enterprise AI Product Designers pricing comparison"
+            ],
+            "citationOpportunities": [
+              "Submit clean XML sitemaps via Bing Webmaster Tools"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 49
+              },
+              {
+                "month": "Jul",
+                "visibility": 50
+              },
+              {
+                "month": "Aug",
+                "visibility": 51
+              },
+              {
+                "month": "Sep",
+                "visibility": 52
+              },
+              {
+                "month": "Oct",
+                "visibility": 53
+              },
+              {
+                "month": "Nov",
+                "visibility": 54
+              }
+            ],
+            "provenance": "Estimated"
+          }
+        ],
+        "websiteVisitation": [
+          {
+            "domain": "linkedin.com",
+            "category": "Professional Network",
+            "monthlyVisitsEst": 1850000000,
+            "overlapPct": 68,
+            "primarySource": "Direct",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": false,
+            "provenance": "Demo Dataset"
+          },
+          {
+            "domain": "reddit.com",
+            "category": "Community Forum",
+            "monthlyVisitsEst": 1620000000,
+            "overlapPct": 54,
+            "primarySource": "Organic Search",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": false,
+            "provenance": "Demo Dataset"
+          },
+          {
+            "domain": "g2.com",
+            "category": "Software Reviews",
+            "monthlyVisitsEst": 21400000,
+            "overlapPct": 41,
+            "primarySource": "Organic Search",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": false,
+            "provenance": "Estimated"
+          },
+          {
+            "domain": "substack.com",
+            "category": "Newsletters & Media",
+            "monthlyVisitsEst": 78500000,
+            "overlapPct": 37,
+            "primarySource": "Referral",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": false,
+            "provenance": "Estimated"
+          },
+          {
+            "domain": "semrush.com",
+            "category": "Marketing Intelligence",
+            "monthlyVisitsEst": 19200000,
+            "overlapPct": 33,
+            "primarySource": "Organic Search",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": true,
+            "provenance": "Estimated"
+          },
+          {
+            "domain": "ahrefs.com",
+            "category": "SEO Platform",
+            "monthlyVisitsEst": 16800000,
+            "overlapPct": 31,
+            "primarySource": "Organic Search",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": true,
+            "provenance": "Estimated"
+          },
+          {
+            "domain": "sparktoro.com",
+            "category": "Audience Research",
+            "monthlyVisitsEst": 1450000,
+            "overlapPct": 28,
+            "primarySource": "Direct",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": true,
+            "provenance": "Estimated"
+          },
+          {
+            "domain": "producthunt.com",
+            "category": "Product Discovery",
+            "monthlyVisitsEst": 8900000,
+            "overlapPct": 26,
+            "primarySource": "Social",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": false,
+            "provenance": "Demo Dataset"
+          }
+        ],
+        "keywords": [
+          {
+            "keyword": "ai product designers",
+            "searchVolume": 7600,
+            "difficulty": 14,
+            "cpcUsd": 1.1,
+            "competition": "Low",
+            "intent": "Commercial",
+            "cluster": "Live Free Suggest (Global (All Countries))",
+            "isQuestion": false,
+            "isTrending": true,
+            "trend12m": [
+              42,
+              46,
+              51,
+              55,
+              60,
+              64,
+              68,
+              72,
+              77,
+              81,
+              86,
+              92
+            ],
+            "gapOpportunityScore": 84,
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Observed"
+          },
+          {
+            "keyword": "ai product designer jobs",
+            "searchVolume": 2090,
+            "difficulty": 19,
+            "cpcUsd": 1.55,
+            "competition": "Low",
+            "intent": "Commercial",
+            "cluster": "Live Free Suggest (Global (All Countries))",
+            "isQuestion": false,
+            "isTrending": true,
+            "trend12m": [
+              42,
+              46,
+              51,
+              55,
+              60,
+              64,
+              68,
+              72,
+              77,
+              81,
+              86,
+              92
+            ],
+            "gapOpportunityScore": 81,
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Observed"
+          },
+          {
+            "keyword": "ai product designer course",
+            "searchVolume": 3160,
+            "difficulty": 38,
+            "cpcUsd": 2,
+            "competition": "Low",
+            "intent": "Commercial",
+            "cluster": "Live Free Suggest (Global (All Countries))",
+            "isQuestion": false,
+            "isTrending": true,
+            "trend12m": [
+              42,
+              46,
+              51,
+              55,
+              60,
+              64,
+              68,
+              72,
+              77,
+              81,
+              86,
+              92
+            ],
+            "gapOpportunityScore": 78,
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Observed"
+          },
+          {
+            "keyword": "ai product designer salary",
+            "searchVolume": 3610,
+            "difficulty": 15,
+            "cpcUsd": 2.45,
+            "competition": "Low",
+            "intent": "Commercial",
+            "cluster": "Live Free Suggest (Global (All Countries))",
+            "isQuestion": false,
+            "isTrending": true,
+            "trend12m": [
+              42,
+              46,
+              51,
+              55,
+              60,
+              64,
+              68,
+              72,
+              77,
+              81,
+              86,
+              92
+            ],
+            "gapOpportunityScore": 75,
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Observed"
+          },
+          {
+            "keyword": "ai product designer portfolio",
+            "searchVolume": 4990,
+            "difficulty": 41,
+            "cpcUsd": 2.9,
+            "competition": "Low",
+            "intent": "Commercial",
+            "cluster": "Live Free Suggest (Global (All Countries))",
+            "isQuestion": false,
+            "isTrending": true,
+            "trend12m": [
+              42,
+              46,
+              51,
+              55,
+              60,
+              64,
+              68,
+              72,
+              77,
+              81,
+              86,
+              92
+            ],
+            "gapOpportunityScore": 72,
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Observed"
+          },
+          {
+            "keyword": "best ai product designer",
+            "searchVolume": 3890,
+            "difficulty": 39,
+            "cpcUsd": 3.35,
+            "competition": "Low",
+            "intent": "Commercial",
+            "cluster": "Live Free Suggest (Global (All Countries))",
+            "isQuestion": true,
+            "isTrending": true,
+            "trend12m": [
+              42,
+              46,
+              51,
+              55,
+              60,
+              64,
+              68,
+              72,
+              77,
+              81,
+              86,
+              92
+            ],
+            "gapOpportunityScore": 69,
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Observed"
+          },
+          {
+            "keyword": "ai product designers audience research tools",
+            "searchVolume": 15795,
+            "difficulty": 42,
+            "cpcUsd": 6.4,
+            "competition": "Medium",
+            "intent": "Commercial",
+            "cluster": "Tool Discovery",
+            "isQuestion": false,
+            "isTrending": true,
+            "gapOpportunityScore": 86,
+            "trend12m": [
+              12663,
+              13329,
+              13660,
+              14282,
+              14292,
+              15179,
+              15590,
+              15567,
+              15680,
+              16401,
+              16511,
+              17633
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "how to find where ai product designers hang out online",
+            "searchVolume": 6095,
+            "difficulty": 24,
+            "cpcUsd": 3.1,
+            "competition": "Low",
+            "intent": "Informational",
+            "cluster": "Audience Discovery",
+            "isQuestion": true,
+            "isTrending": true,
+            "gapOpportunityScore": 91,
+            "trend12m": [
+              4991,
+              5119,
+              5359,
+              5363,
+              5705,
+              5863,
+              5855,
+              5898,
+              6176,
+              6219,
+              6652,
+              6708
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "best ai product designers competitor analysis software",
+            "searchVolume": 10595,
+            "difficulty": 56,
+            "cpcUsd": 9.2,
+            "competition": "High",
+            "intent": "Commercial",
+            "cluster": "Competitor Intelligence",
+            "isQuestion": false,
+            "isTrending": false,
+            "gapOpportunityScore": 74,
+            "trend12m": [
+              8633,
+              9050,
+              9057,
+              9652,
+              9927,
+              9912,
+              9988,
+              10472,
+              10545,
+              11298,
+              11396,
+              11285
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "ai search visibility tracker for b2b saas & marketing",
+            "searchVolume": 4295,
+            "difficulty": 19,
+            "cpcUsd": 5.8,
+            "competition": "Low",
+            "intent": "Commercial",
+            "cluster": "AI Search GEO",
+            "isQuestion": false,
+            "isTrending": true,
+            "gapOpportunityScore": 94,
+            "trend12m": [
+              3561,
+              3564,
+              3805,
+              3917,
+              3911,
+              3942,
+              4138,
+              4167,
+              4473,
+              4512,
+              4467,
+              4566
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "what keywords do ai product designers search most",
+            "searchVolume": 2995,
+            "difficulty": 21,
+            "cpcUsd": 2.8,
+            "competition": "Low",
+            "intent": "Informational",
+            "cluster": "Keyword Strategy",
+            "isQuestion": true,
+            "isTrending": true,
+            "gapOpportunityScore": 88,
+            "trend12m": [
+              2411,
+              2579,
+              2657,
+              2652,
+              2674,
+              2810,
+              2831,
+              3044,
+              3072,
+              3040,
+              3109,
+              3260
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "ai product designers pricing benchmark template",
+            "searchVolume": 4195,
+            "difficulty": 29,
+            "cpcUsd": 4.5,
+            "competition": "Medium",
+            "intent": "Transactional",
+            "cluster": "Conversion Assets",
+            "isQuestion": false,
+            "isTrending": false,
+            "gapOpportunityScore": 82,
+            "trend12m": [
+              3507,
+              3616,
+              3610,
+              3640,
+              3832,
+              3861,
+              4159,
+              4198,
+              4154,
+              4250,
+              4461,
+              4379
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "reddit communities for ai product designers",
+            "searchVolume": 2595,
+            "difficulty": 16,
+            "cpcUsd": 1.9,
+            "competition": "Low",
+            "intent": "Informational",
+            "cluster": "Community Channels",
+            "isQuestion": false,
+            "isTrending": true,
+            "gapOpportunityScore": 90,
+            "trend12m": [
+              2172,
+              2168,
+              2187,
+              2305,
+              2323,
+              2508,
+              2532,
+              2505,
+              2564,
+              2695,
+              2644,
+              2766
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "ai product designers content gap checklist",
+            "searchVolume": 2145,
+            "difficulty": 18,
+            "cpcUsd": 3.4,
+            "competition": "Low",
+            "intent": "Informational",
+            "cluster": "Content Strategy",
+            "isQuestion": false,
+            "isTrending": false,
+            "gapOpportunityScore": 85,
+            "trend12m": [
+              1739,
+              1754,
+              1852,
+              1867,
+              2019,
+              2039,
+              2017,
+              2066,
+              2174,
+              2132,
+              2233,
+              2283
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          }
+        ],
+        "mediaConsumption": [
+          {
+            "title": "Show HN: Open Computer Use (HN · 9 pts)",
+            "mediaType": "Industry Publication",
+            "url": "https://github.com/e2b-dev/open-computer-use",
+            "audienceAffinityPct": 78,
+            "topicFocus": "B2B SaaS & Marketing",
+            "frequency": "1 live comments",
+            "provenance": "Observed"
+          },
+          {
+            "title": "AI MCP for Product Designers – Make your design system machine-readable (HN · 6 pts)",
+            "mediaType": "Industry Publication",
+            "url": "https://www.nikitisza.com/writing/mcp-for-product-designers",
+            "audienceAffinityPct": 78,
+            "topicFocus": "B2B SaaS & Marketing",
+            "frequency": "1 live comments",
+            "provenance": "Observed"
+          },
+          {
+            "title": "There are not enough Product Designers for AI (HN · 1 pts)",
+            "mediaType": "Industry Publication",
+            "url": "https://albelfio.com/blog/aiProducts2",
+            "audienceAffinityPct": 78,
+            "topicFocus": "B2B SaaS & Marketing",
+            "frequency": "1 live comments",
+            "provenance": "Observed"
+          },
+          {
+            "title": "Marketing Against the Grain",
+            "mediaType": "Podcast",
+            "url": "https://www.youtube.com/@marketingagainstthegrain",
+            "audienceAffinityPct": 44,
+            "topicFocus": "AI growth playbooks & demand generation",
+            "frequency": "3x weekly",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "title": "Lenny’s Newsletter & Podcast",
+            "mediaType": "Blog",
+            "url": "https://www.lennysnewsletter.com",
+            "audienceAffinityPct": 48,
+            "topicFocus": "Product-led growth & customer retention",
+            "frequency": "Weekly",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "title": "Search Engine Journal",
+            "mediaType": "Industry Publication",
+            "url": "https://www.searchenginejournal.com",
+            "audienceAffinityPct": 39,
+            "topicFocus": "Technical SEO, SERP shifts & AI Overviews",
+            "frequency": "Daily",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "title": "Ahrefs TV",
+            "mediaType": "YouTube Channel",
+            "url": "https://www.youtube.com/@AhrefsCom",
+            "audienceAffinityPct": 42,
+            "topicFocus": "Keyword research & link acquisition tutorials",
+            "frequency": "Weekly",
+            "provenance": "Demo Dataset"
+          }
+        ],
+        "redditCommunities": [
+          {
+            "subreddit": "r/marketing",
+            "subscribersEst": "1.6M",
+            "audienceMatchPct": 67,
+            "coreTopics": [
+              "Attribution",
+              "AI content workflows",
+              "Channel saturation"
+            ],
+            "popularDiscussion": "How teams validate AI Product Designers messaging before scaling paid spend",
+            "faqQuestion": "Which free/low-cost tools show real audience overlap without enterprise contracts?",
+            "customerComplaint": "Too many analytics tools return generic traffic numbers without buyer context.",
+            "trendDirection": "Rising",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "subreddit": "r/SEO",
+            "subscribersEst": "410K",
+            "audienceMatchPct": 61,
+            "coreTopics": [
+              "Zero-click SERPs",
+              "AI citations",
+              "Technical audits"
+            ],
+            "popularDiscussion": "Tracking brand citations in Gemini, ChatGPT, and Perplexity alongside Google rank",
+            "faqQuestion": "How do you identify low-KD commercial keywords that AI Overviews do not completely absorb?",
+            "customerComplaint": "Keyword tools over-report search volume on informational terms with declining clicks.",
+            "trendDirection": "Rising",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "subreddit": "r/SaaS",
+            "subscribersEst": "320K",
+            "audienceMatchPct": 56,
+            "coreTopics": [
+              "ICP discovery",
+              "Churn reduction",
+              "Pricing tiers"
+            ],
+            "popularDiscussion": "Finding first 100 customers in B2B SaaS & Marketing using niche community listening",
+            "faqQuestion": "Should early teams invest in SEO or creator partnerships first?",
+            "customerComplaint": "Agencies pitch broad content calendars instead of high-intent customer pain points.",
+            "trendDirection": "Steady",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "subreddit": "r/PPC",
+            "subscribersEst": "190K",
+            "audienceMatchPct": 43,
+            "coreTopics": [
+              "CPC inflation",
+              "Landing page match",
+              "Negative keyword mining"
+            ],
+            "popularDiscussion": "Reducing wasted ad spend by mining Reddit objections for ad copy",
+            "faqQuestion": "What CPC threshold makes organic content a better ROI than Google Ads?",
+            "customerComplaint": "Rising CPCs force smaller teams to combine organic audience intelligence with paid.",
+            "trendDirection": "Peak",
+            "provenance": "Estimated"
+          }
+        ],
+        "socialAccounts": [
+          {
+            "name": "Rand Fishkin",
+            "handle": "@randfish",
+            "platform": "LinkedIn",
+            "profileUrl": "https://www.linkedin.com/in/randfishkin/",
+            "industry": "Audience Research & Zero-Click Marketing",
+            "relevanceScore": 94,
+            "followersPublic": "245K",
+            "engagementRatePct": 3.4,
+            "collaborationIdea": "Co-author zero-click distribution benchmark study",
+            "observationKind": "Observed Public Profile"
+          },
+          {
+            "name": "Lily Ray",
+            "handle": "@lilyraynyc",
+            "platform": "X",
+            "profileUrl": "https://x.com/lilyraynyc",
+            "industry": "SEO & AI Search Visibility",
+            "relevanceScore": 91,
+            "followersPublic": "118K",
+            "engagementRatePct": 2.9,
+            "collaborationIdea": "Invite for AI Search Visibility teardown webinar",
+            "observationKind": "Observed Public Profile"
+          },
+          {
+            "name": "Sam Kuehnle",
+            "handle": "@samkuehnle",
+            "platform": "LinkedIn",
+            "profileUrl": "https://www.linkedin.com",
+            "industry": "B2B Demand Generation",
+            "relevanceScore": 86,
+            "followersPublic": "42K",
+            "engagementRatePct": 4.1,
+            "collaborationIdea": "Podcast interview on customer dark-social attribution",
+            "observationKind": "AI-Inferred Recommendation"
+          },
+          {
+            "name": "Aleyda Solis",
+            "handle": "@aleyda",
+            "platform": "YouTube",
+            "profileUrl": "https://www.youtube.com/@CrawlingMondays",
+            "industry": "Technical & International SEO",
+            "relevanceScore": 89,
+            "followersPublic": "68K",
+            "engagementRatePct": 4.6,
+            "collaborationIdea": "Sponsor Crawling Mondays technical audit episode",
+            "observationKind": "Observed Public Profile"
+          },
+          {
+            "name": "Katelyn Bourgoin",
+            "handle": "@KateBourgoin",
+            "platform": "Substack",
+            "profileUrl": "https://customercamp.co",
+            "industry": "Buyer Psychology & Positioning",
+            "relevanceScore": 88,
+            "followersPublic": "95K",
+            "engagementRatePct": 5.2,
+            "collaborationIdea": "Newsletter feature on buyer trigger research",
+            "observationKind": "AI-Inferred Recommendation"
+          }
+        ],
+        "topicsOfInterest": [
+          {
+            "topic": "AI Search & Answer Engine Visibility",
+            "category": "Trending Subject",
+            "cluster": "Search Evolution",
+            "interestPct": 78,
+            "growthPct": 64,
+            "relatedQuestion": "How do brands earn citations inside AI answers?",
+            "contentOpportunity": "Publish primary-source benchmark datasets and structured comparison matrices.",
+            "provenance": "AI-Inferred"
+          },
+          {
+            "topic": "Tool Consolidation & Budget Efficiency",
+            "category": "Buying Interest",
+            "cluster": "Procurement",
+            "interestPct": 72,
+            "growthPct": 38,
+            "relatedQuestion": "Can one platform replace separate SEO and audience tools for B2B SaaS & Marketing?",
+            "contentOpportunity": "Interactive ROI calculator comparing stacked subscriptions vs unified workflows.",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "topic": "Unreliable Traffic & Attribution Blind Spots",
+            "category": "Pain Point",
+            "cluster": "Measurement",
+            "interestPct": 69,
+            "growthPct": 29,
+            "relatedQuestion": "Why do reported keyword volumes fail to convert into pipeline?",
+            "contentOpportunity": "Guide on pairing buyer-intent Reddit objections with low-KD search keywords.",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "topic": "Creator-Led & Community Distribution",
+            "category": "Industry Discussion",
+            "cluster": "Go-To-Market",
+            "interestPct": 61,
+            "growthPct": 41,
+            "relatedQuestion": "Which niche podcasts and newsletters influence AI Product Designers buyers?",
+            "contentOpportunity": "Outreach shortlist template for 20 mid-tier industry creators.",
+            "provenance": "Estimated"
+          },
+          {
+            "topic": "Weekend Productivity & Workflow Systems",
+            "category": "Hobby",
+            "cluster": "Lifestyle Overlap",
+            "interestPct": 44,
+            "growthPct": 12,
+            "relatedQuestion": "What lightweight automation habits do growth operators use?",
+            "contentOpportunity": "Human-interest founder workflow teardown on YouTube Shorts & LinkedIn.",
+            "provenance": "AI-Inferred"
+          }
+        ]
+      },
+      "createdAt": "2026-11-24T22:41:45.948Z",
+      "updatedAt": "2026-11-25T12:35:06.245Z",
+      "state": "All States / National",
+      "searchEngine": "All Engines"
+    },
+    {
+      "id": "proj_demo_01",
+      "userId": "usr_demo_01",
+      "workspaceId": "ws_demo_01",
+      "title": "B2B SaaS Growth Leaders (Global)",
+      "query": "B2B SaaS Growth Leaders",
+      "country": "Global (All Countries)",
+      "language": "English",
+      "industry": "B2B SaaS & Marketing",
+      "dataMode": "Demonstration Dataset",
+      "intelligence": {
+        "query": "B2B SaaS Growth Leaders",
+        "country": "Global (All Countries)",
+        "state": "All States / National",
+        "searchEngine": "All Engines",
+        "language": "English",
+        "industry": "B2B SaaS & Marketing",
+        "generatedAt": "2026-11-25T12:34:49.405Z",
+        "sampleModeNotice": "Free live public adapters + demonstration model active. Manage zero-cost and optional free-tier sources in API & Settings.",
+        "summary": {
+          "estimatedAudienceSize": "349K – 669K",
+          "topPlatform": "YouTube",
+          "topPlatformAffinity": 84,
+          "avgKeywordOpportunity": 86,
+          "aiVisibilityIndex": 41
+        },
+        "socialNetworks": [
+          {
+            "platform": "YouTube",
+            "audiencePct": 84,
+            "marketAvgPct": 76,
+            "indexMultiplier": 1.11,
+            "rank": 1,
+            "delta30d": 1.7,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 82,
+                "avgPct": 76
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 82,
+                "avgPct": 76
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 83,
+                "avgPct": 76
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 83,
+                "avgPct": 76
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 84,
+                "avgPct": 76
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 84,
+                "avgPct": 76
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "LinkedIn",
+            "audiencePct": 61,
+            "marketAvgPct": 30,
+            "indexMultiplier": 2.03,
+            "rank": 2,
+            "delta30d": -2.9,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 65,
+                "avgPct": 30
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 64,
+                "avgPct": 30
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 63,
+                "avgPct": 30
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 62,
+                "avgPct": 30
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 62,
+                "avgPct": 30
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 61,
+                "avgPct": 30
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Instagram",
+            "audiencePct": 60,
+            "marketAvgPct": 59,
+            "indexMultiplier": 1.02,
+            "rank": 3,
+            "delta30d": 2.7,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 57,
+                "avgPct": 59
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 57,
+                "avgPct": 59
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 58,
+                "avgPct": 59
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 59,
+                "avgPct": 59
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 59,
+                "avgPct": 59
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 60,
+                "avgPct": 59
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Reddit",
+            "audiencePct": 57,
+            "marketAvgPct": 23,
+            "indexMultiplier": 2.48,
+            "rank": 4,
+            "delta30d": -0.2,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 57,
+                "avgPct": 23
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 57,
+                "avgPct": 23
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 57,
+                "avgPct": 23
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 57,
+                "avgPct": 23
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 57,
+                "avgPct": 23
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 57,
+                "avgPct": 23
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "X (Twitter)",
+            "audiencePct": 50,
+            "marketAvgPct": 19,
+            "indexMultiplier": 2.63,
+            "rank": 5,
+            "delta30d": 4.5,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 44,
+                "avgPct": 19
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 46,
+                "avgPct": 19
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 47,
+                "avgPct": 19
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 48,
+                "avgPct": 19
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 49,
+                "avgPct": 19
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 50,
+                "avgPct": 19
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Facebook",
+            "audiencePct": 47,
+            "marketAvgPct": 62,
+            "indexMultiplier": 0.76,
+            "rank": 6,
+            "delta30d": 4.9,
+            "recommended": false,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 41,
+                "avgPct": 62
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 42,
+                "avgPct": 62
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 43,
+                "avgPct": 62
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 45,
+                "avgPct": 62
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 46,
+                "avgPct": 62
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 47,
+                "avgPct": 62
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "TikTok",
+            "audiencePct": 41,
+            "marketAvgPct": 44,
+            "indexMultiplier": 0.93,
+            "rank": 7,
+            "delta30d": -2.2,
+            "recommended": false,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 44,
+                "avgPct": 44
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 43,
+                "avgPct": 44
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 43,
+                "avgPct": 44
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 42,
+                "avgPct": 44
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 42,
+                "avgPct": 44
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 41,
+                "avgPct": 44
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Threads",
+            "audiencePct": 27,
+            "marketAvgPct": 17,
+            "indexMultiplier": 1.59,
+            "rank": 8,
+            "delta30d": 3.7,
+            "recommended": true,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 22,
+                "avgPct": 17
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 23,
+                "avgPct": 17
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 24,
+                "avgPct": 17
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 25,
+                "avgPct": 17
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 26,
+                "avgPct": 17
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 27,
+                "avgPct": 17
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Pinterest",
+            "audiencePct": 14,
+            "marketAvgPct": 26,
+            "indexMultiplier": 0.54,
+            "rank": 9,
+            "delta30d": -0.7,
+            "recommended": false,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 15,
+                "avgPct": 26
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 15,
+                "avgPct": 26
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 15,
+                "avgPct": 26
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 14,
+                "avgPct": 26
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 14,
+                "avgPct": 26
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 14,
+                "avgPct": 26
+              }
+            ],
+            "provenance": "Demo Dataset"
+          },
+          {
+            "platform": "Snapchat",
+            "audiencePct": 6,
+            "marketAvgPct": 21,
+            "indexMultiplier": 0.29,
+            "rank": 10,
+            "delta30d": 3,
+            "recommended": false,
+            "historicalSeries": [
+              {
+                "month": "Jun",
+                "audiencePct": 5,
+                "avgPct": 21
+              },
+              {
+                "month": "Jul",
+                "audiencePct": 5,
+                "avgPct": 21
+              },
+              {
+                "month": "Aug",
+                "audiencePct": 5,
+                "avgPct": 21
+              },
+              {
+                "month": "Sep",
+                "audiencePct": 5,
+                "avgPct": 21
+              },
+              {
+                "month": "Oct",
+                "audiencePct": 5,
+                "avgPct": 21
+              },
+              {
+                "month": "Nov",
+                "audiencePct": 6,
+                "avgPct": 21
+              }
+            ],
+            "provenance": "Demo Dataset"
+          }
+        ],
+        "demographics": [
+          {
+            "label": "25–34 years",
+            "audiencePct": 36,
+            "marketAvgPct": 24,
+            "category": "age",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "35–44 years",
+            "audiencePct": 31,
+            "marketAvgPct": 22,
+            "category": "age",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "18–24 years",
+            "audiencePct": 14,
+            "marketAvgPct": 21,
+            "category": "age",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "45–54 years",
+            "audiencePct": 13,
+            "marketAvgPct": 18,
+            "category": "age",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "55+ years",
+            "audiencePct": 6,
+            "marketAvgPct": 15,
+            "category": "age",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Female",
+            "audiencePct": 47,
+            "marketAvgPct": 50,
+            "category": "gender",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Male",
+            "audiencePct": 51,
+            "marketAvgPct": 49,
+            "category": "gender",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Non-binary / Undisclosed",
+            "audiencePct": 2,
+            "marketAvgPct": 1,
+            "category": "gender",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "United States",
+            "audiencePct": 38,
+            "marketAvgPct": 24,
+            "category": "country",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "United Kingdom",
+            "audiencePct": 16,
+            "marketAvgPct": 9,
+            "category": "country",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Canada",
+            "audiencePct": 12,
+            "marketAvgPct": 7,
+            "category": "country",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Germany & EU",
+            "audiencePct": 15,
+            "marketAvgPct": 14,
+            "category": "country",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Nigeria & Africa",
+            "audiencePct": 10,
+            "marketAvgPct": 8,
+            "category": "country",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "India & APAC",
+            "audiencePct": 9,
+            "marketAvgPct": 18,
+            "category": "country",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "California (US)",
+            "audiencePct": 34,
+            "marketAvgPct": 19,
+            "category": "state",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Greater London (UK)",
+            "audiencePct": 28,
+            "marketAvgPct": 16,
+            "category": "state",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Ontario (CA)",
+            "audiencePct": 22,
+            "marketAvgPct": 13,
+            "category": "state",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Lagos (NG)",
+            "audiencePct": 16,
+            "marketAvgPct": 10,
+            "category": "state",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Austin, TX · London · Toronto",
+            "audiencePct": 34,
+            "marketAvgPct": 16,
+            "category": "city",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "English",
+            "audiencePct": 84,
+            "marketAvgPct": 68,
+            "category": "language",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "label": "Bachelor’s Degree or Higher",
+            "audiencePct": 71,
+            "marketAvgPct": 39,
+            "category": "education",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Marketing, Product & Founders",
+            "audiencePct": 54,
+            "marketAvgPct": 14,
+            "category": "occupation",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "$85k–$160k Household Income Indicator",
+            "audiencePct": 49,
+            "marketAvgPct": 26,
+            "category": "income",
+            "provenance": "Estimated"
+          },
+          {
+            "label": "Dual-income urban households",
+            "audiencePct": 53,
+            "marketAvgPct": 38,
+            "category": "household",
+            "provenance": "Estimated"
+          }
+        ],
+        "searchAndAi": [
+          {
+            "platform": "Google Search",
+            "type": "Traditional Search",
+            "audienceAdoptionPct": 91,
+            "visibilityScore": 68,
+            "brandMentionsEst": 1420,
+            "competitorMentionsEst": 2380,
+            "topQuestions": [
+              "Best tools for B2B SaaS Growth workflows",
+              "How to measure ROI for B2B SaaS Growth"
+            ],
+            "citationOpportunities": [
+              "Publish benchmark comparison tables",
+              "Add schema FAQ markup on buying guides"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 60
+              },
+              {
+                "month": "Jul",
+                "visibility": 62
+              },
+              {
+                "month": "Aug",
+                "visibility": 64
+              },
+              {
+                "month": "Sep",
+                "visibility": 66
+              },
+              {
+                "month": "Oct",
+                "visibility": 68
+              },
+              {
+                "month": "Nov",
+                "visibility": 70
+              }
+            ],
+            "provenance": "Estimated"
+          },
+          {
+            "platform": "ChatGPT",
+            "type": "AI Search",
+            "audienceAdoptionPct": 64,
+            "visibilityScore": 44,
+            "brandMentionsEst": 310,
+            "competitorMentionsEst": 590,
+            "topQuestions": [
+              "Compare top B2B SaaS Growth platforms by budget",
+              "Build a 90-day playbook for B2B SaaS Growth"
+            ],
+            "citationOpportunities": [
+              "Get cited in G2/Reddit comparison threads",
+              "Publish transparent pricing pages"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 31
+              },
+              {
+                "month": "Jul",
+                "visibility": 34
+              },
+              {
+                "month": "Aug",
+                "visibility": 37
+              },
+              {
+                "month": "Sep",
+                "visibility": 40
+              },
+              {
+                "month": "Oct",
+                "visibility": 43
+              },
+              {
+                "month": "Nov",
+                "visibility": 46
+              }
+            ],
+            "provenance": "AI-Inferred"
+          },
+          {
+            "platform": "Gemini",
+            "type": "AI Search",
+            "audienceAdoptionPct": 52,
+            "visibilityScore": 49,
+            "brandMentionsEst": 280,
+            "competitorMentionsEst": 410,
+            "topQuestions": [
+              "What metrics matter most for B2B SaaS Growth?",
+              "Step-by-step audit checklist for B2B SaaS & Marketing"
+            ],
+            "citationOpportunities": [
+              "Publish original research reports with clear data attribution",
+              "Optimize YouTube transcripts"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 35
+              },
+              {
+                "month": "Jul",
+                "visibility": 38
+              },
+              {
+                "month": "Aug",
+                "visibility": 41
+              },
+              {
+                "month": "Sep",
+                "visibility": 44
+              },
+              {
+                "month": "Oct",
+                "visibility": 47
+              },
+              {
+                "month": "Nov",
+                "visibility": 50
+              }
+            ],
+            "provenance": "AI-Inferred"
+          },
+          {
+            "platform": "Perplexity",
+            "type": "AI Search",
+            "audienceAdoptionPct": 39,
+            "visibilityScore": 38,
+            "brandMentionsEst": 195,
+            "competitorMentionsEst": 440,
+            "topQuestions": [
+              "B2B SaaS Growth market size and benchmark statistics",
+              "Alternatives to legacy B2B SaaS Growth software"
+            ],
+            "citationOpportunities": [
+              "Create cite-worthy statistics glossary pages",
+              "Contribute guest studies to trade journals"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 25
+              },
+              {
+                "month": "Jul",
+                "visibility": 28
+              },
+              {
+                "month": "Aug",
+                "visibility": 31
+              },
+              {
+                "month": "Sep",
+                "visibility": 34
+              },
+              {
+                "month": "Oct",
+                "visibility": 37
+              },
+              {
+                "month": "Nov",
+                "visibility": 40
+              }
+            ],
+            "provenance": "AI-Inferred"
+          },
+          {
+            "platform": "Claude",
+            "type": "AI Search",
+            "audienceAdoptionPct": 34,
+            "visibilityScore": 33,
+            "brandMentionsEst": 140,
+            "competitorMentionsEst": 290,
+            "topQuestions": [
+              "Draft positioning brief for B2B SaaS Growth",
+              "Evaluate vendor risks in B2B SaaS & Marketing"
+            ],
+            "citationOpportunities": [
+              "Publish technical architecture docs and API security FAQs"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 22
+              },
+              {
+                "month": "Jul",
+                "visibility": 24
+              },
+              {
+                "month": "Aug",
+                "visibility": 26
+              },
+              {
+                "month": "Sep",
+                "visibility": 28
+              },
+              {
+                "month": "Oct",
+                "visibility": 30
+              },
+              {
+                "month": "Nov",
+                "visibility": 32
+              }
+            ],
+            "provenance": "AI-Inferred"
+          },
+          {
+            "platform": "Bing",
+            "type": "Traditional Search",
+            "audienceAdoptionPct": 28,
+            "visibilityScore": 54,
+            "brandMentionsEst": 460,
+            "competitorMentionsEst": 610,
+            "topQuestions": [
+              "Enterprise B2B SaaS Growth pricing comparison"
+            ],
+            "citationOpportunities": [
+              "Submit clean XML sitemaps via Bing Webmaster Tools"
+            ],
+            "history": [
+              {
+                "month": "Jun",
+                "visibility": 49
+              },
+              {
+                "month": "Jul",
+                "visibility": 50
+              },
+              {
+                "month": "Aug",
+                "visibility": 51
+              },
+              {
+                "month": "Sep",
+                "visibility": 52
+              },
+              {
+                "month": "Oct",
+                "visibility": 53
+              },
+              {
+                "month": "Nov",
+                "visibility": 54
+              }
+            ],
+            "provenance": "Estimated"
+          }
+        ],
+        "websiteVisitation": [
+          {
+            "domain": "linkedin.com",
+            "category": "Professional Network",
+            "monthlyVisitsEst": 1850000000,
+            "overlapPct": 68,
+            "primarySource": "Direct",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": false,
+            "provenance": "Demo Dataset"
+          },
+          {
+            "domain": "reddit.com",
+            "category": "Community Forum",
+            "monthlyVisitsEst": 1620000000,
+            "overlapPct": 54,
+            "primarySource": "Organic Search",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": false,
+            "provenance": "Demo Dataset"
+          },
+          {
+            "domain": "g2.com",
+            "category": "Software Reviews",
+            "monthlyVisitsEst": 21400000,
+            "overlapPct": 41,
+            "primarySource": "Organic Search",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": false,
+            "provenance": "Estimated"
+          },
+          {
+            "domain": "substack.com",
+            "category": "Newsletters & Media",
+            "monthlyVisitsEst": 78500000,
+            "overlapPct": 37,
+            "primarySource": "Referral",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": false,
+            "provenance": "Estimated"
+          },
+          {
+            "domain": "semrush.com",
+            "category": "Marketing Intelligence",
+            "monthlyVisitsEst": 19200000,
+            "overlapPct": 33,
+            "primarySource": "Organic Search",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": true,
+            "provenance": "Estimated"
+          },
+          {
+            "domain": "ahrefs.com",
+            "category": "SEO Platform",
+            "monthlyVisitsEst": 16800000,
+            "overlapPct": 31,
+            "primarySource": "Organic Search",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": true,
+            "provenance": "Estimated"
+          },
+          {
+            "domain": "sparktoro.com",
+            "category": "Audience Research",
+            "monthlyVisitsEst": 1450000,
+            "overlapPct": 28,
+            "primarySource": "Direct",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": true,
+            "provenance": "Estimated"
+          },
+          {
+            "domain": "producthunt.com",
+            "category": "Product Discovery",
+            "monthlyVisitsEst": 8900000,
+            "overlapPct": 26,
+            "primarySource": "Social",
+            "topCountry": "Global (All Countries)",
+            "isCompetitor": false,
+            "provenance": "Demo Dataset"
+          }
+        ],
+        "keywords": [
+          {
+            "keyword": "b2b saas growth audience research tools",
+            "searchVolume": 15569,
+            "difficulty": 42,
+            "cpcUsd": 6.4,
+            "competition": "Medium",
+            "intent": "Commercial",
+            "cluster": "Tool Discovery",
+            "isQuestion": false,
+            "isTrending": true,
+            "gapOpportunityScore": 86,
+            "trend12m": [
+              12489,
+              12805,
+              12840,
+              14515,
+              14763,
+              15024,
+              14983,
+              14690,
+              15102,
+              15473,
+              16904,
+              17485
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "how to find where b2b saas growth hang out online",
+            "searchVolume": 5669,
+            "difficulty": 24,
+            "cpcUsd": 3.1,
+            "competition": "Low",
+            "intent": "Informational",
+            "cluster": "Audience Discovery",
+            "isQuestion": true,
+            "isTrending": true,
+            "gapOpportunityScore": 91,
+            "trend12m": [
+              4521,
+              4534,
+              5143,
+              5234,
+              5329,
+              5314,
+              5207,
+              5357,
+              5492,
+              6014,
+              6225,
+              6008
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "best b2b saas growth competitor analysis software",
+            "searchVolume": 11069,
+            "difficulty": 56,
+            "cpcUsd": 9.2,
+            "competition": "High",
+            "intent": "Commercial",
+            "cluster": "Competitor Intelligence",
+            "isQuestion": false,
+            "isTrending": false,
+            "gapOpportunityScore": 74,
+            "trend12m": [
+              8576,
+              9766,
+              9942,
+              10128,
+              10099,
+              9891,
+              10183,
+              10448,
+              11465,
+              11877,
+              11453,
+              12160
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "ai search visibility tracker for b2b saas & marketing",
+            "searchVolume": 4569,
+            "difficulty": 19,
+            "cpcUsd": 5.8,
+            "competition": "Low",
+            "intent": "Commercial",
+            "cluster": "AI Search GEO",
+            "isQuestion": false,
+            "isTrending": true,
+            "gapOpportunityScore": 94,
+            "trend12m": [
+              3917,
+              3990,
+              4066,
+              4054,
+              3968,
+              4089,
+              4198,
+              4618,
+              4788,
+              4613,
+              4905,
+              5169
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "what keywords do b2b saas growth search most",
+            "searchVolume": 3469,
+            "difficulty": 21,
+            "cpcUsd": 2.8,
+            "competition": "Low",
+            "intent": "Informational",
+            "cluster": "Keyword Strategy",
+            "isQuestion": true,
+            "isTrending": true,
+            "gapOpportunityScore": 88,
+            "trend12m": [
+              2942,
+              3001,
+              2992,
+              2926,
+              3018,
+              3101,
+              3420,
+              3549,
+              3416,
+              3637,
+              3838,
+              3660
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "b2b saas growth pricing benchmark template",
+            "searchVolume": 3669,
+            "difficulty": 29,
+            "cpcUsd": 4.5,
+            "competition": "Medium",
+            "intent": "Transactional",
+            "cluster": "Conversion Assets",
+            "isQuestion": false,
+            "isTrending": false,
+            "gapOpportunityScore": 82,
+            "trend12m": [
+              3082,
+              3072,
+              3003,
+              3100,
+              3188,
+              3525,
+              3662,
+              3521,
+              3755,
+              3968,
+              3780,
+              3922
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "reddit communities for b2b saas growth",
+            "searchVolume": 2369,
+            "difficulty": 16,
+            "cpcUsd": 1.9,
+            "competition": "Low",
+            "intent": "Informational",
+            "cluster": "Community Channels",
+            "isQuestion": false,
+            "isTrending": true,
+            "gapOpportunityScore": 90,
+            "trend12m": [
+              1925,
+              1880,
+              1943,
+              1999,
+              2217,
+              2305,
+              2214,
+              2366,
+              2503,
+              2381,
+              2473,
+              2591
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "keyword": "b2b saas growth content gap checklist",
+            "searchVolume": 2019,
+            "difficulty": 18,
+            "cpcUsd": 3.4,
+            "competition": "Low",
+            "intent": "Informational",
+            "cluster": "Content Strategy",
+            "isQuestion": false,
+            "isTrending": false,
+            "gapOpportunityScore": 85,
+            "trend12m": [
+              1552,
+              1605,
+              1653,
+              1839,
+              1914,
+              1837,
+              1966,
+              2082,
+              1979,
+              2057,
+              2158,
+              2264
+            ],
+            "country": "Global (All Countries)",
+            "language": "English",
+            "searchEngine": "All Engines",
+            "provenance": "Demo Dataset"
+          }
+        ],
+        "mediaConsumption": [
+          {
+            "title": "Marketing Against the Grain",
+            "mediaType": "Podcast",
+            "url": "https://www.youtube.com/@marketingagainstthegrain",
+            "audienceAffinityPct": 44,
+            "topicFocus": "AI growth playbooks & demand generation",
+            "frequency": "3x weekly",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "title": "Lenny’s Newsletter & Podcast",
+            "mediaType": "Blog",
+            "url": "https://www.lennysnewsletter.com",
+            "audienceAffinityPct": 48,
+            "topicFocus": "Product-led growth & customer retention",
+            "frequency": "Weekly",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "title": "Search Engine Journal",
+            "mediaType": "Industry Publication",
+            "url": "https://www.searchenginejournal.com",
+            "audienceAffinityPct": 39,
+            "topicFocus": "Technical SEO, SERP shifts & AI Overviews",
+            "frequency": "Daily",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "title": "Ahrefs TV",
+            "mediaType": "YouTube Channel",
+            "url": "https://www.youtube.com/@AhrefsCom",
+            "audienceAffinityPct": 42,
+            "topicFocus": "Keyword research & link acquisition tutorials",
+            "frequency": "Weekly",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "title": "The Information",
+            "mediaType": "News Publication",
+            "url": "https://www.theinformation.com",
+            "audienceAffinityPct": 29,
+            "topicFocus": "Tech strategy & market shifts",
+            "frequency": "Daily",
+            "provenance": "Estimated"
+          },
+          {
+            "title": "Demand Curve Growth Guide",
+            "mediaType": "Online Magazine",
+            "url": "https://www.demandcurve.com",
+            "audienceAffinityPct": 35,
+            "topicFocus": "Landing page conversion & paid acquisition",
+            "frequency": "Bi-weekly",
+            "provenance": "Demo Dataset"
+          }
+        ],
+        "redditCommunities": [
+          {
+            "subreddit": "r/marketing",
+            "subscribersEst": "1.6M",
+            "audienceMatchPct": 67,
+            "coreTopics": [
+              "Attribution",
+              "AI content workflows",
+              "Channel saturation"
+            ],
+            "popularDiscussion": "How teams validate B2B SaaS Growth messaging before scaling paid spend",
+            "faqQuestion": "Which free/low-cost tools show real audience overlap without enterprise contracts?",
+            "customerComplaint": "Too many analytics tools return generic traffic numbers without buyer context.",
+            "trendDirection": "Rising",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "subreddit": "r/SEO",
+            "subscribersEst": "410K",
+            "audienceMatchPct": 61,
+            "coreTopics": [
+              "Zero-click SERPs",
+              "AI citations",
+              "Technical audits"
+            ],
+            "popularDiscussion": "Tracking brand citations in Gemini, ChatGPT, and Perplexity alongside Google rank",
+            "faqQuestion": "How do you identify low-KD commercial keywords that AI Overviews do not completely absorb?",
+            "customerComplaint": "Keyword tools over-report search volume on informational terms with declining clicks.",
+            "trendDirection": "Rising",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "subreddit": "r/SaaS",
+            "subscribersEst": "320K",
+            "audienceMatchPct": 56,
+            "coreTopics": [
+              "ICP discovery",
+              "Churn reduction",
+              "Pricing tiers"
+            ],
+            "popularDiscussion": "Finding first 100 customers in B2B SaaS & Marketing using niche community listening",
+            "faqQuestion": "Should early teams invest in SEO or creator partnerships first?",
+            "customerComplaint": "Agencies pitch broad content calendars instead of high-intent customer pain points.",
+            "trendDirection": "Steady",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "subreddit": "r/PPC",
+            "subscribersEst": "190K",
+            "audienceMatchPct": 43,
+            "coreTopics": [
+              "CPC inflation",
+              "Landing page match",
+              "Negative keyword mining"
+            ],
+            "popularDiscussion": "Reducing wasted ad spend by mining Reddit objections for ad copy",
+            "faqQuestion": "What CPC threshold makes organic content a better ROI than Google Ads?",
+            "customerComplaint": "Rising CPCs force smaller teams to combine organic audience intelligence with paid.",
+            "trendDirection": "Peak",
+            "provenance": "Estimated"
+          }
+        ],
+        "socialAccounts": [
+          {
+            "name": "Rand Fishkin",
+            "handle": "@randfish",
+            "platform": "LinkedIn",
+            "profileUrl": "https://www.linkedin.com/in/randfishkin/",
+            "industry": "Audience Research & Zero-Click Marketing",
+            "relevanceScore": 94,
+            "followersPublic": "245K",
+            "engagementRatePct": 3.4,
+            "collaborationIdea": "Co-author zero-click distribution benchmark study",
+            "observationKind": "Observed Public Profile"
+          },
+          {
+            "name": "Lily Ray",
+            "handle": "@lilyraynyc",
+            "platform": "X",
+            "profileUrl": "https://x.com/lilyraynyc",
+            "industry": "SEO & AI Search Visibility",
+            "relevanceScore": 91,
+            "followersPublic": "118K",
+            "engagementRatePct": 2.9,
+            "collaborationIdea": "Invite for AI Search Visibility teardown webinar",
+            "observationKind": "Observed Public Profile"
+          },
+          {
+            "name": "Sam Kuehnle",
+            "handle": "@samkuehnle",
+            "platform": "LinkedIn",
+            "profileUrl": "https://www.linkedin.com",
+            "industry": "B2B Demand Generation",
+            "relevanceScore": 86,
+            "followersPublic": "42K",
+            "engagementRatePct": 4.1,
+            "collaborationIdea": "Podcast interview on customer dark-social attribution",
+            "observationKind": "AI-Inferred Recommendation"
+          },
+          {
+            "name": "Aleyda Solis",
+            "handle": "@aleyda",
+            "platform": "YouTube",
+            "profileUrl": "https://www.youtube.com/@CrawlingMondays",
+            "industry": "Technical & International SEO",
+            "relevanceScore": 89,
+            "followersPublic": "68K",
+            "engagementRatePct": 4.6,
+            "collaborationIdea": "Sponsor Crawling Mondays technical audit episode",
+            "observationKind": "Observed Public Profile"
+          },
+          {
+            "name": "Katelyn Bourgoin",
+            "handle": "@KateBourgoin",
+            "platform": "Substack",
+            "profileUrl": "https://customercamp.co",
+            "industry": "Buyer Psychology & Positioning",
+            "relevanceScore": 88,
+            "followersPublic": "95K",
+            "engagementRatePct": 5.2,
+            "collaborationIdea": "Newsletter feature on buyer trigger research",
+            "observationKind": "AI-Inferred Recommendation"
+          }
+        ],
+        "topicsOfInterest": [
+          {
+            "topic": "AI Search & Answer Engine Visibility",
+            "category": "Trending Subject",
+            "cluster": "Search Evolution",
+            "interestPct": 78,
+            "growthPct": 64,
+            "relatedQuestion": "How do brands earn citations inside AI answers?",
+            "contentOpportunity": "Publish primary-source benchmark datasets and structured comparison matrices.",
+            "provenance": "AI-Inferred"
+          },
+          {
+            "topic": "Tool Consolidation & Budget Efficiency",
+            "category": "Buying Interest",
+            "cluster": "Procurement",
+            "interestPct": 72,
+            "growthPct": 38,
+            "relatedQuestion": "Can one platform replace separate SEO and audience tools for B2B SaaS & Marketing?",
+            "contentOpportunity": "Interactive ROI calculator comparing stacked subscriptions vs unified workflows.",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "topic": "Unreliable Traffic & Attribution Blind Spots",
+            "category": "Pain Point",
+            "cluster": "Measurement",
+            "interestPct": 69,
+            "growthPct": 29,
+            "relatedQuestion": "Why do reported keyword volumes fail to convert into pipeline?",
+            "contentOpportunity": "Guide on pairing buyer-intent Reddit objections with low-KD search keywords.",
+            "provenance": "Demo Dataset"
+          },
+          {
+            "topic": "Creator-Led & Community Distribution",
+            "category": "Industry Discussion",
+            "cluster": "Go-To-Market",
+            "interestPct": 61,
+            "growthPct": 41,
+            "relatedQuestion": "Which niche podcasts and newsletters influence B2B SaaS Growth buyers?",
+            "contentOpportunity": "Outreach shortlist template for 20 mid-tier industry creators.",
+            "provenance": "Estimated"
+          },
+          {
+            "topic": "Weekend Productivity & Workflow Systems",
+            "category": "Hobby",
+            "cluster": "Lifestyle Overlap",
+            "interestPct": 44,
+            "growthPct": 12,
+            "relatedQuestion": "What lightweight automation habits do growth operators use?",
+            "contentOpportunity": "Human-interest founder workflow teardown on YouTube Shorts & LinkedIn.",
+            "provenance": "AI-Inferred"
+          }
+        ]
+      },
+      "createdAt": "2026-11-24T22:40:32.736Z",
+      "updatedAt": "2026-11-24T22:40:32.736Z",
+      "state": "All States / National",
+      "searchEngine": "All Engines"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_demo_01",
+      "userId": "usr_demo_01",
+      "workspaceId": "ws_demo_01",
+      "projectId": "proj_demo_01",
+      "title": "Q4 Audience & AI Search Intelligence Brief",
+      "brandName": "AudiencePulse AI",
+      "whiteLabel": false,
+      "shareSlug": "q4-audience-ai-brief",
+      "confidenceLabel": "Demonstration Dataset + Observed Public Signals",
+      "executiveSummary": "Target B2B SaaS Growth Leaders over-index strongly on LinkedIn (2.1x average) and Reddit (2.08x average) while showing rising discovery behaviour in Gemini and ChatGPT. Commercial low-difficulty gaps around AI search visibility offer immediate organic upside.",
+      "marketingRecommendations": [
+        "Shift 35% of awareness content toward LinkedIn founder breakdowns and YouTube deep-dive workflows.",
+        "Publish benchmark comparison tables to capture Gemini and Perplexity citations.",
+        "Target KD < 25 community-validated pain point keywords discovered in r/marketing and r/SEO."
+      ],
+      "createdAt": "2026-11-24T22:40:32.736Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_demo_01",
+      "userId": "usr_demo_01",
+      "projectId": "proj_demo_01",
+      "title": "Q4 Channel & Keyword Strategy",
+      "messages": [
+        {
+          "id": "msg_welcome_01",
+          "role": "assistant",
+          "mode": "Research Planner",
+          "content": "I have loaded your active research project \"B2B SaaS Growth Leaders (US)\". Ask me to identify low-competition keywords, build a 30-day channel plan, compare competitors, or inspect Reddit buyer objections.",
+          "timestamp": "2026-11-24T22:40:32.736Z",
+          "citations": [
+            {
+              "source": "AudiencePulse 9-Module Snapshot",
+              "provenance": "Demo Dataset"
+            }
+          ],
+          "recommendedNextActions": [
+            {
+              "label": "Explore YouTube & LinkedIn Audience Gaps",
+              "targetTab": "audience",
+              "prompt": "Which YouTube channels and LinkedIn creators should we partner with first?"
+            },
+            {
+              "label": "Open 12-Tool SEO Explorer",
+              "targetTab": "seo",
+              "prompt": "Prioritise the top 5 low-KD commercial keywords from this project."
+            }
+          ],
+          "suggestedFollowUps": [
+            "Build a 30-day marketing plan for B2B SaaS Growth Leaders",
+            "What customer pain points appear most in Reddit communities?",
+            "How can we increase brand citations in Gemini and ChatGPT?"
+          ]
+        }
+      ],
+      "updatedAt": "2026-11-24T22:40:32.736Z"
+    }
+  ],
+  "competitorWatchlist": {
+    "usr_demo_01": [
+      "sparktoro.com",
+      "ahrefs.com",
+      "semrush.com",
+      "similarweb.com"
+    ]
+  },
+  "trackedKeywords": {
+    "usr_demo_01": [
+      {
+        "keyword": "audience intelligence platform",
+        "targetDomain": "growthstudio.demo",
+        "position": 3,
+        "volume": 6600
+      },
+      {
+        "keyword": "ai search visibility tracker",
+        "targetDomain": "growthstudio.demo",
+        "position": 5,
+        "volume": 4100
+      },
+      {
+        "keyword": "reddit customer research tool",
+        "targetDomain": "growthstudio.demo",
+        "position": 8,
+        "volume": 2100
+      }
+    ]
+  },
+  "providers": [
+    {
+      "id": "google-suggest-free",
+      "name": "Google Suggest Autocomplete",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (public live endpoint)",
+      "usageCount": 18,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "Live keyword expansions and long-tail autocomplete phrases directly from Google Suggest."
+    },
+    {
+      "id": "reddit-free",
+      "name": "Reddit Public JSON Search",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (public JSON feed)",
+      "usageCount": 15,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "Live public subreddit threads, community pain points, and audience discussions."
+    },
+    {
+      "id": "hn-algolia-free",
+      "name": "Hacker News Algolia Search",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (open Algolia API)",
+      "usageCount": 12,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "Live tech, SaaS, and founder community stories and comment engagement counts."
+    },
+    {
+      "id": "wikipedia-free",
+      "name": "Wikimedia OpenSearch API",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (open Wikimedia API)",
+      "usageCount": 10,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "Entity topics, reference URLs, and semantic knowledge graph expansions."
+    },
+    {
+      "id": "duckduckgo-free",
+      "name": "DuckDuckGo Instant Answer API",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (public JSON endpoint)",
+      "usageCount": 7,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "Zero-cost topic definitions and related search entity signals."
+    },
+    {
+      "id": "site-inspector-free",
+      "name": "Built-in SSRF-Safe Site & Robots Inspector",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Runs natively on server (no key)",
+      "usageCount": 9,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "Live HTTP status, TTFB latency, meta title/description, H1, canonical, JSON-LD, and robots.txt checks."
+    },
+    {
+      "id": "pagespeed-free",
+      "name": "Google PageSpeed Insights v5 / Lighthouse",
+      "category": "Free Official Quota",
+      "costLabel": "Free Quota · Optional Key",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Optional free Google API Key",
+      "usageCount": 6,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "Core Web Vitals, mobile performance, and Lighthouse SEO audit scores."
+    },
+    {
+      "id": "youtube-free",
+      "name": "YouTube Data API v3 (Free Quota)",
+      "category": "Free Official Quota",
+      "costLabel": "Free Quota · Optional Key",
+      "requiresKey": true,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Free Google Cloud YouTube API Key",
+      "usageCount": 11,
+      "errorCount": 0,
+      "status": "Ready (Free)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "10,000 free units/day for live YouTube channels, videos, and creator discovery."
+    },
+    {
+      "id": "gsc-free",
+      "name": "Google Search Console API",
+      "category": "Free Official Quota",
+      "costLabel": "100% Free Google Sign-In",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Sign in with Google (read-only Search Console)",
+      "usageCount": 8,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "Verified first-party impressions, clicks, CTR, and query positions via Google Sign-In."
+    },
+    {
+      "id": "searxng-free",
+      "name": "SearXNG Metasearch Instance",
+      "category": "Open-Source Self-Hosted",
+      "costLabel": "Free · Self-Hosted",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Self-Hosted SearXNG URL (https://...)",
+      "usageCount": 5,
+      "errorCount": 0,
+      "status": "Ready (Free)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "Privacy-preserving open-source SERP JSON execution with zero per-query fees."
+    },
+    {
+      "id": "librecrawl-free",
+      "name": "Built-in Sitemap & Broken-Link Crawler",
+      "category": "Open-Source Self-Hosted",
+      "costLabel": "Free · Built-in SSRF-Safe",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Open-Source Worker URL (optional)",
+      "usageCount": 4,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-24T23:31:58.957Z",
+      "notes": "Live sitemap.xml discovery, internal link checks, and broken 4xx/5xx URL detection."
+    },
+    {
+      "id": "oss-analytics-free",
+      "name": "Umami / PostHog Visitor Analytics",
+      "category": "Open-Source Self-Hosted",
+      "costLabel": "Free · Self-Hosted / Cloud Free",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "umami|https://host|siteId|token or posthog|https://us.posthog.com|projId|key",
+      "usageCount": 0,
+      "errorCount": 0,
+      "status": "Ready (Free)",
+      "lastTestedAt": null,
+      "notes": "Live 30-day visitors, pageviews, and referring domains for Audience Engine Website Visitation."
+    },
+    {
+      "id": "ddg-ac-free",
+      "name": "DuckDuckGo Autocomplete Feed",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (public autocomplete JSON)",
+      "usageCount": 6,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-25T08:53:09.371Z",
+      "notes": "Expands Questions, Prepositions, and Comparison keyword ideas at $0 cost."
+    },
+    {
+      "id": "openpagerank-free",
+      "name": "Open PageRank API (Domain Authority)",
+      "category": "Free Official Quota",
+      "costLabel": "Free Quota · Official Free Key",
+      "requiresKey": true,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Free Open PageRank Key (10K req/hr)",
+      "usageCount": 3,
+      "errorCount": 0,
+      "status": "Ready (Free)",
+      "lastTestedAt": "2026-11-25T08:53:09.371Z",
+      "notes": "10,000 free req/hr for real 0-100 Domain Authority scores on SERP & Backlink tables (Tranco fallback when blank)."
+    },
+    {
+      "id": "brave-search-free",
+      "name": "Brave Search Web API (Free Data Tier)",
+      "category": "Free Official Quota",
+      "costLabel": "Free Quota · 2,000 queries/mo",
+      "requiresKey": true,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Free Brave Search Subscription Token",
+      "usageCount": 2,
+      "errorCount": 0,
+      "status": "Ready (Free)",
+      "lastTestedAt": "2026-11-25T08:53:09.371Z",
+      "notes": "2,000 free live SERP queries/month for independent organic web results and content ideas."
+    },
+    {
+      "id": "serper-free",
+      "name": "Serper.dev Google SERP API (Free Starter)",
+      "category": "Free Official Quota",
+      "costLabel": "Free Starter · 2,500 queries",
+      "requiresKey": true,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Free Serper.dev API Key",
+      "usageCount": 2,
+      "errorCount": 0,
+      "status": "Ready (Free)",
+      "lastTestedAt": "2026-11-25T08:53:09.371Z",
+      "notes": "2,500 free Google SERP queries including Organic Results, Answer Box, and People Also Ask."
+    },
+    {
+      "id": "firecrawl-oss",
+      "name": "Firecrawl / Crawl4AI Self-Hosted",
+      "category": "Open-Source Self-Hosted",
+      "costLabel": "Free · Self-Hosted",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Self-Hosted Firecrawl URL (https://...)",
+      "usageCount": 1,
+      "errorCount": 0,
+      "status": "Ready (Free)",
+      "lastTestedAt": "2026-11-25T08:53:09.371Z",
+      "notes": "Open-source page markdown & content extraction worker with SSRF protection."
+    },
+    {
+      "id": "wikimedia-pageviews-free",
+      "name": "Wikimedia Pageviews REST API",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (Wikimedia REST v1)",
+      "usageCount": 4,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-25T10:16:10.704Z",
+      "notes": "Real 6-month Wikipedia monthly reader demand series to shape keyword trend curves."
+    },
+    {
+      "id": "google-trends-rss-free",
+      "name": "Google Trends Public RSS Feed",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (Google Trends RSS)",
+      "usageCount": 5,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-25T10:16:10.704Z",
+      "notes": "Live country-specific trending search spikes and breakout topics."
+    },
+    {
+      "id": "commoncrawl-free",
+      "name": "Common Crawl Open Web Index (CDX)",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · Open Web Index",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (Common Crawl CDX)",
+      "usageCount": 3,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-25T10:16:10.704Z",
+      "notes": "Real open-web indexed URLs and crawl footprints for Backlink Explorer & Competitor Matrix."
+    },
+    {
+      "id": "openalex-free",
+      "name": "OpenAlex Open Research Citations API",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (OpenAlex Works API)",
+      "usageCount": 2,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-25T10:16:10.704Z",
+      "notes": "Real peer-reviewed studies and citation counts for authoritative AI Overview & Content Ideas."
+    },
+    {
+      "id": "github-search-free",
+      "name": "GitHub Public Repositories Search",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (GitHub REST Search)",
+      "usageCount": 2,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-25T10:16:10.704Z",
+      "notes": "Live open-source software trends, star counts, and developer ecosystem signals."
+    },
+    {
+      "id": "ssl-crtsh-free",
+      "name": "Certificate Transparency (crt.sh) & TLS Inspector",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (TLS + crt.sh JSON)",
+      "usageCount": 2,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-25T10:27:00.077Z",
+      "notes": "Live SSL/TLS certificate expiry checks and crt.sh subdomain discovery for SEO Audits & Competitors."
+    },
+    {
+      "id": "wikidata-sparql-free",
+      "name": "Wikipedia / Wikidata SPARQL Entity Graph",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · No Key Needed",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "No key required (Wikidata SPARQL API)",
+      "usageCount": 2,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-25T10:27:00.077Z",
+      "notes": "Structured brand & topic knowledge graph entities, official websites, industries, and inception years."
+    },
+    {
+      "id": "rss-news-free",
+      "name": "Industry News RSS / Atom & Feedly Aggregator",
+      "category": "Free No-Key Live API",
+      "costLabel": "Free · Optional Custom Feed URL",
+      "requiresKey": false,
+      "enabled": true,
+      "mode": "live-free",
+      "hasCredential": false,
+      "credentialLabel": "Optional custom RSS / Atom / Feedly public feed URL (https://...)",
+      "usageCount": 2,
+      "errorCount": 0,
+      "status": "Active (Free Live)",
+      "lastTestedAt": "2026-11-25T10:27:00.077Z",
+      "notes": "Real-time industry news headlines from public news RSS feeds plus optional custom RSS/Atom URLs."
+    }
+  ],
+  "providerSecrets": {},
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "audienceTag": "For solo marketers & validation",
+      "monthlyPriceUsd": 0,
+      "monthlyCredits": 25,
+      "maxCompetitors": 2,
+      "maxWorkspaces": 1,
+      "aiMessagesPerMonth": 20,
+      "whiteLabelReports": false,
+      "highlights": [
+        "25 research credits / mo",
+        "9-module audience preview",
+        "20 AI Copilot queries",
+        "CSV exports"
+      ]
+    },
+    {
+      "id": "starter",
+      "name": "Starter",
+      "audienceTag": "For in-house growth teams",
+      "monthlyPriceUsd": 49,
+      "monthlyCredits": 150,
+      "maxCompetitors": 3,
+      "maxWorkspaces": 2,
+      "aiMessagesPerMonth": 150,
+      "whiteLabelReports": false,
+      "highlights": [
+        "150 research credits / mo",
+        "Full Keyword & SERP suite",
+        "3-competitor benchmarking",
+        "150 AI Copilot queries"
+      ]
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "audienceTag": "For scaling marketing leads",
+      "monthlyPriceUsd": 129,
+      "monthlyCredits": 600,
+      "maxCompetitors": 5,
+      "maxWorkspaces": 5,
+      "aiMessagesPerMonth": 600,
+      "whiteLabelReports": true,
+      "highlights": [
+        "600 research credits / mo",
+        "5-competitor deep matrix",
+        "AI Search Visibility tracking",
+        "PDF & Excel report exports"
+      ]
+    },
+    {
+      "id": "agency",
+      "name": "Agency",
+      "audienceTag": "For multi-client agencies",
+      "monthlyPriceUsd": 299,
+      "monthlyCredits": 2500,
+      "maxCompetitors": 5,
+      "maxWorkspaces": 25,
+      "aiMessagesPerMonth": 2500,
+      "whiteLabelReports": true,
+      "highlights": [
+        "2,500 research credits / mo",
+        "25 client workspaces",
+        "Branded white-label reports",
+        "Custom provider limits"
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_01",
+      "userId": "usr_demo_01",
+      "title": "Research snapshot ready",
+      "detail": "B2B SaaS Growth Leaders (US) across all 9 audience modules is ready to inspect.",
+      "read": false,
+      "createdAt": "2026-11-24T22:40:32.736Z"
+    },
+    {
+      "id": "notif_02",
+      "userId": "usr_demo_01",
+      "title": "AI Search Visibility opportunity",
+      "detail": "14 high-intent prompts identified where competitors are cited ahead of your domain.",
+      "read": false,
+      "createdAt": "2026-11-24T22:40:32.736Z"
+    }
+  ],
+  "apiUsageLogs": [
+    {
+      "id": "log_2b49b210",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/ubersuggest/overview",
+      "status": "ok",
+      "latencyMs": 135,
+      "message": "AI Keyword Overview: \"AI Product Designers\" (7 live sources)",
+      "createdAt": "2026-11-25T11:44:34.239Z"
+    },
+    {
+      "id": "log_949214cd",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/ubersuggest/overview",
+      "status": "ok",
+      "latencyMs": 135,
+      "message": "AI Keyword Overview: \"AI Product Designers\" (7 live sources)",
+      "createdAt": "2026-11-25T11:42:55.567Z"
+    },
+    {
+      "id": "log_253214de",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/ai-visibility",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: Shopify (AI-Inferred)",
+      "createdAt": "2026-11-25T10:29:37.463Z"
+    },
+    {
+      "id": "log_4761d79f",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/ubersuggest/overview",
+      "status": "ok",
+      "latencyMs": 135,
+      "message": "AI Keyword Overview: \"Shopify\" (10 live sources)",
+      "createdAt": "2026-11-25T10:29:34.434Z"
+    },
+    {
+      "id": "log_0bb880b0",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/ai-visibility",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: Shopify (AI-Inferred)",
+      "createdAt": "2026-11-25T10:29:12.222Z"
+    },
+    {
+      "id": "log_8efee487",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/ai-visibility",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: AI Product Designers (AI-Inferred)",
+      "createdAt": "2026-11-25T10:28:53.174Z"
+    },
+    {
+      "id": "log_4bc592aa",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/ubersuggest/overview",
+      "status": "ok",
+      "latencyMs": 135,
+      "message": "AI Keyword Overview: \"AI Product Designers\" (7 live sources)",
+      "createdAt": "2026-11-25T10:28:50.184Z"
+    },
+    {
+      "id": "log_895af24a",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/ubersuggest/overview",
+      "status": "ok",
+      "latencyMs": 135,
+      "message": "AI Keyword Overview: \"AI Product Designers\" (6 live sources)",
+      "createdAt": "2026-11-25T10:27:10.929Z"
+    },
+    {
+      "id": "log_ea1eb2b3",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/ubersuggest/overview",
+      "status": "ok",
+      "latencyMs": 135,
+      "message": "AI Keyword Overview: \"AI Product Designers\" (5 live sources)",
+      "createdAt": "2026-11-25T10:17:39.494Z"
+    },
+    {
+      "id": "log_c4bedafc",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/ubersuggest/overview",
+      "status": "ok",
+      "latencyMs": 135,
+      "message": "AI Keyword Overview: \"AI Product Designers\" (6 live sources)",
+      "createdAt": "2026-11-25T10:16:23.202Z"
+    },
+    {
+      "id": "log_19c023ae",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/ubersuggest/overview",
+      "status": "ok",
+      "latencyMs": 135,
+      "message": "AI Keyword Overview: \"AI Product Designers\" (3 live sources)",
+      "createdAt": "2026-11-25T08:54:53.161Z"
+    },
+    {
+      "id": "log_f589b1c2",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/ubersuggest/overview",
+      "status": "ok",
+      "latencyMs": 135,
+      "message": "AI Keyword Overview: \"AI Product Designers\" (3 live sources)",
+      "createdAt": "2026-11-25T08:53:31.274Z"
+    },
+    {
+      "id": "log_454c34e3",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Observed)",
+      "createdAt": "2026-11-25T08:51:09.762Z"
+    },
+    {
+      "id": "log_ce594569",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/serp-analyzer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Demo Dataset)",
+      "createdAt": "2026-11-25T08:51:05.205Z"
+    },
+    {
+      "id": "log_72d6ad36",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Observed)",
+      "createdAt": "2026-11-25T08:51:00.907Z"
+    },
+    {
+      "id": "log_a88d701b",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/ai-visibility",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (AI-Inferred)",
+      "createdAt": "2026-11-25T08:50:43.668Z"
+    },
+    {
+      "id": "log_fdcda067",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/search-intent",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Observed)",
+      "createdAt": "2026-11-25T08:50:40.473Z"
+    },
+    {
+      "id": "log_f5af2157",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/content-gap",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Demo Dataset)",
+      "createdAt": "2026-11-25T08:50:38.201Z"
+    },
+    {
+      "id": "log_df03f573",
+      "userId": "usr_demo_01",
+      "providerId": "hn-algolia-free",
+      "endpoint": "/seo/content-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Observed)",
+      "createdAt": "2026-11-25T08:50:33.823Z"
+    },
+    {
+      "id": "log_f57c16f6",
+      "userId": "usr_demo_01",
+      "providerId": "site-inspector-free",
+      "endpoint": "/seo/technical-audit",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Estimated)",
+      "createdAt": "2026-11-25T08:50:28.435Z"
+    },
+    {
+      "id": "log_a1e20a14",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/rank-tracker",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Demo Dataset)",
+      "createdAt": "2026-11-25T08:50:23.397Z"
+    },
+    {
+      "id": "log_529d727d",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-gap",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Observed)",
+      "createdAt": "2026-11-25T08:50:14.654Z"
+    },
+    {
+      "id": "log_a3b31842",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/competitor-research",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Demo Dataset)",
+      "createdAt": "2026-11-25T08:49:58.036Z"
+    },
+    {
+      "id": "log_c349c1eb",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/backlink-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Estimated)",
+      "createdAt": "2026-11-25T08:49:56.588Z"
+    },
+    {
+      "id": "log_4667c75b",
+      "userId": "usr_demo_01",
+      "providerId": "site-inspector-free",
+      "endpoint": "/seo/website-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Estimated)",
+      "createdAt": "2026-11-25T08:49:55.496Z"
+    },
+    {
+      "id": "log_7ea61b05",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/serp-analyzer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Demo Dataset)",
+      "createdAt": "2026-11-25T08:49:54.479Z"
+    },
+    {
+      "id": "log_4a1430d6",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: best clearner (Observed)",
+      "createdAt": "2026-11-25T08:49:07.786Z"
+    },
+    {
+      "id": "log_ee308479",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: electrician near me (Observed)",
+      "createdAt": "2026-11-25T08:48:21.729Z"
+    },
+    {
+      "id": "log_1ecd9ce7",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: plumber near me (Observed)",
+      "createdAt": "2026-11-25T08:47:55.166Z"
+    },
+    {
+      "id": "log_76d6fd0e",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: AI Product Designers (Observed)",
+      "createdAt": "2026-11-25T08:47:19.601Z"
+    },
+    {
+      "id": "log_5cdf4e67",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: AI Product Designers (Observed)",
+      "createdAt": "2026-11-25T08:28:35.390Z"
+    },
+    {
+      "id": "log_1bbce66f",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: AI Product Designers (Observed)",
+      "createdAt": "2026-11-25T08:28:20.001Z"
+    },
+    {
+      "id": "log_4f8d8be2",
+      "userId": "usr_demo_01",
+      "providerId": "site-inspector-free",
+      "endpoint": "/seo/technical-audit",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: example.com (Observed)",
+      "createdAt": "2026-11-24T23:05:44.948Z"
+    },
+    {
+      "id": "log_208b72c3",
+      "userId": "usr_demo_01",
+      "providerId": "site-inspector-free",
+      "endpoint": "/seo/technical-audit",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: AI Product Designers (Estimated)",
+      "createdAt": "2026-11-24T23:05:44.520Z"
+    },
+    {
+      "id": "log_6b245f96",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: AI Product Designers (Observed)",
+      "createdAt": "2026-11-24T23:05:44.048Z"
+    },
+    {
+      "id": "log_a595a7d2",
+      "userId": "usr_demo_01",
+      "providerId": "site-inspector-free",
+      "endpoint": "/seo/technical-audit",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: example.com (Observed)",
+      "createdAt": "2026-11-24T23:04:48.219Z"
+    },
+    {
+      "id": "log_7540d5cd",
+      "userId": "usr_demo_01",
+      "providerId": "site-inspector-free",
+      "endpoint": "/seo/technical-audit",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: AI Product Designers (Estimated)",
+      "createdAt": "2026-11-24T23:04:47.787Z"
+    },
+    {
+      "id": "log_e63d6e30",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: AI Product Designers (Observed)",
+      "createdAt": "2026-11-24T23:04:47.295Z"
+    },
+    {
+      "id": "log_fb88cd00",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: AI Product Designers (Observed)",
+      "createdAt": "2026-11-24T23:03:49.032Z"
+    },
+    {
+      "id": "log_cf819f25",
+      "userId": "usr_demo_01",
+      "providerId": "google-suggest-free",
+      "endpoint": "/provider/health-test",
+      "status": "ok",
+      "latencyMs": 90,
+      "message": "Google Suggest Autocomplete: Live free endpoint responded with 12 real keyword suggestions.",
+      "createdAt": "2026-11-24T23:03:43.388Z"
+    },
+    {
+      "id": "log_b2ab5a68",
+      "userId": "usr_demo_01",
+      "providerId": "dataforseo",
+      "endpoint": "/audience/research",
+      "status": "ok",
+      "latencyMs": 142,
+      "message": "Generated 9-module research snapshot for \"AI Product Designers\"",
+      "createdAt": "2026-11-24T22:41:45.948Z"
+    },
+    {
+      "id": "log_6c3ecf3d",
+      "userId": "usr_demo_01",
+      "providerId": "google-ads",
+      "endpoint": "/seo/keyword-explorer",
+      "status": "ok",
+      "latencyMs": 118,
+      "message": "SEO analysis: B2B SaaS Growth Leaders",
+      "createdAt": "2026-11-24T22:41:00.978Z"
+    },
+    {
+      "id": "log_01",
+      "userId": "usr_demo_01",
+      "providerId": "dataforseo",
+      "endpoint": "/v3/keywords_data/google_ads",
+      "status": "ok",
+      "latencyMs": 184,
+      "message": "Demo adapter served keyword metrics",
+      "createdAt": "2026-11-24T22:40:32.736Z"
+    }
+  ],
+  "keywordLists": [
+    {
+      "id": "kwl_demo_01",
+      "userId": "usr_demo_01",
+      "name": "High-Intent SEO & AI Targets",
+      "keywords": [
+        {
+          "keyword": "audience intelligence platform",
+          "volume": 6600,
+          "difficulty": 28,
+          "cpc": 5.4,
+          "currencySymbol": "$",
+          "intent": "Commercial",
+          "country": "United States",
+          "language": "English",
+          "addedAt": "2026-11-25T08:53:09.386Z"
+        },
+        {
+          "keyword": "ai search visibility tracker",
+          "volume": 4100,
+          "difficulty": 19,
+          "cpc": 4.8,
+          "currencySymbol": "$",
+          "intent": "Commercial",
+          "country": "United States",
+          "language": "English",
+          "addedAt": "2026-11-25T08:53:09.386Z"
+        }
+      ],
+      "createdAt": "2026-11-25T08:53:09.386Z",
+      "updatedAt": "2026-11-25T08:53:09.386Z"
+    }
+  ]
+}
